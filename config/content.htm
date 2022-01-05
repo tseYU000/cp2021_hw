@@ -47,7 +47,7 @@ function doSave(storage_id, filename){
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
 </p>
 <!-- ###################### button開始 ###################### -->
-<p><button id="hw1">hw1</button><button id="hw2">hw2</button><button id="w13_1">w13_1</button><button id="w13_2">w13_2</button><button id="final1">final1</button></p>
+<p><button id="hw1">hw1</button><button id="hw2">hw2</button><button id="貪食蛇">貪食蛇</button><button id="w13_1">w13_1</button><button id="w13_2">w13_2</button><button id="final1">final1</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -150,10 +150,14 @@ hw1 = button2(hw1_url)
 doc["hw1"].bind('click', hw1.do)
 ################################## hw1 end
 ################################# hw2start 
-hw2_url = "https://gist.githubusercontent.com/tseYU000/caed7bff0f161f205cb3ed469693c506/raw/489d51572add792b114b647cf1470773c32e28b1/hw2.py"
+hw2_url = "https://gist.githubusercontent.com/tseYU000/caed7bff0f161f205cb3ed469693c506/raw/76366c1c95bb8262c02a6da7797c0b90da5a20d7/hw2.py"
 hw2 = button2(hw2_url)
-doc["hw1"].bind('click', hw2.do)
+doc["hw2"].bind('click', hw2.do)
 ################################## hw2 end
+貪食蛇_url = "https://gist.githubusercontent.com/tseYU000/3298eb7061cad6d5614da1c3a6bfc75f/raw/97cbe83fd8a935001ad9a652c03b10473f87835a/%25E8%25B2%25AA%25E9%25A3%259F%25E8%259B%2587.py"
+貪食蛇 = button2(貪食蛇_url)
+doc["貪食蛇"].bind('click',貪食蛇.do)
+################################## 貪食蛇 end
 </script>
 </p><h1>HW1</h1>
 <p>HW1 - 網際動畫與 touch typing 佔學期成績 20%.</p>
