@@ -6,8 +6,8 @@
 <p>網站連結:<a href="https://tseyu000.github.io/cp2021_hw/">https://tseyu000.github.io/cp2021_hw/</a> </p>
 <p>其他與個人或作業相關資料說明或介紹</p>
 <h1>EXAM</h1>
-<h2>w13</h2>
-<p><a href="/downloads/w12.txt"></a></p>
+<h3>41023206</h3>
+<p></p>
 <!-- 導入 brython 程式庫 -->
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
@@ -47,7 +47,7 @@ function doSave(storage_id, filename){
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
 </p>
 <!-- ###################### button開始 ###################### -->
-<p><button id="hw1">hw1</button><button id="hw2">hw2</button><button id="貪食蛇">貪食蛇</button><button id="w13_1">w13_1</button><button id="w13_2">w13_2</button><button id="final1">final1</button></p>
+<p><button id="hw1">hw1</button><button id="hw2">hw2</button><button id="add1to100">add 1 to 100</button><button id="rocflag">ROC flag</button><button id="貪食蛇">貪食蛇</button><button id="w13_1">w13_1</button><button id="w13_2">w13_2</button><button id="final1">final1</button><button id="final2">final2</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -154,10 +154,26 @@ hw2_url = "https://gist.githubusercontent.com/tseYU000/caed7bff0f161f205cb3ed469
 hw2 = button2(hw2_url)
 doc["hw2"].bind('click', hw2.do)
 ################################## hw2 end
-貪食蛇_url = "https://gist.githubusercontent.com/tseYU000/3298eb7061cad6d5614da1c3a6bfc75f/raw/97cbe83fd8a935001ad9a652c03b10473f87835a/%25E8%25B2%25AA%25E9%25A3%259F%25E8%259B%2587.py"
+################################# 貪食蛇start 
+貪食蛇_url = "https://gist.githubusercontent.com/tseYU000/cb9cb55b2a2d2fbde678a1ed82c7acf3/raw/a78d9ff52bb9bebc28303874cbb98b70f0662e83/%25E8%25B2%25AA%25E9%25A3%259F%25E8%259B%2587.py"
 貪食蛇 = button2(貪食蛇_url)
 doc["貪食蛇"].bind('click',貪食蛇.do)
 ################################## 貪食蛇 end
+################################## rocflag start
+rocflag_url = "https://gist.githubusercontent.com/mdecourse/2f56974a40da7a218dbaef376a5b4ca4/raw/0e2ca81d5c2539c4b6c86071c8cf9de0b1251b9c/roc_flag.py"
+rocflag = button2(rocflag_url)
+doc["rocflag"].bind("click", rocflag.do)
+################################## rocflag end
+################################## add1to100 start
+add1to100_url = "https://gist.githubusercontent.com/tseYU000/f936d8a33dbd97777ef7e6a498bc5ca8/raw/95a47d54634f9caa1e2bb79683b31724dd4d9234/add1to100.py"
+add1to100 = button2(add1to100_url)
+doc["add1to100"].bind("click",add1to100.do)
+################################## add1to100 end
+################################## final2 start
+final2_url = "https://gist.githubusercontent.com/tseYU000/f31c9ce8eb65d03155ce802bd86aae68/raw/2301907746fa427902787d1318316ebdcbce179a/final2.py"
+final2 = button2(final2_url)
+doc["final2"].bind("click",final2.do)
+################################## final2 end
 </script>
 </p><h1>HW1</h1>
 <p>HW1 - 網際動畫與 touch typing 佔學期成績 20%.</p>
